@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pag</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Css/estilos.css">
+
+	<script type="text/javascript">
+  function myFunction() {
+  var numero =prompt("Intruduzca su correo Email");
+
+	if (numero <= 0.5){
+	document.writeln(numero + " Se Produjo Un Error");
+	}
+
+	else {
+		document.writeln(numero + " se Envio Con Exito Los Datos");
+	}
+	}
+	</script>
+
+</head>
+<body bgcolor="#2eef33">
+
+<header>
+		<div class="contenedor">
+			<div class="logo">
+				<img src="../img/logo.png" alt="">
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Acerca de</a></li>
+					<li><a href="#">Contactos</a></li>
+					<li><a href="#">Servicios</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<form>
+
+		<label for="Nombre">Nombre:</label>
+		<input type="text" name="nombre" placeholder="ingrese su nombre">
+
+		<label for="apellido">Apellido:</label>
+		<input type="text" name="apellido" placeholder="ingrese su apellido">
+
+		<label for="telefono">Telefono:</label>
+		<input type="tell" name="telefono" placeholder="ingrese su No. telefono">
+
+		<label for="mensaje">Mensaje:</label>
+		<textarea id="mensaje" placeholder="escriba su mensaje"></textarea>
+
+		<input type="submit" onclick="myFunction()" name="Enviar">
+
+
+	</form>
+
+	<aside>
+		<div class="wrapp">
+				<div class="widget">
+					<h3>Informacion Del Estudiante</h3>
+					<ul>
+						<li><a href="#">Dzul Orozco Fabricio Andres</a></li>
+						<li><a href="#">Cbtis 193</a></li>
+						<li><a href="#">Programacion Modulo 2</a></li>
+					</ul>
+				</div>
+				</div>
+			</aside>
+			<footer>
+		<div class="wrapp">
+			<p>Tarea 5</p>
+		</div>
+	</footer>
+
+</body>
+</html>
